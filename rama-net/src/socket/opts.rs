@@ -344,6 +344,7 @@ impl From<TcpKeepAlive> for SocketTcpKeepAlive {
             target_os = "espidf",
             target_os = "vita",
             target_os = "haiku",
+            target_os = "aix",
         )))]
         let ka = match value.interval {
             Some(interval) => ka.with_interval(interval),
@@ -359,6 +360,7 @@ impl From<TcpKeepAlive> for SocketTcpKeepAlive {
             target_os = "espidf",
             target_os = "vita",
             target_os = "haiku",
+            target_os = "aix",
         )))]
         let ka = match value.retries {
             Some(retries) => ka.with_retries(retries),
