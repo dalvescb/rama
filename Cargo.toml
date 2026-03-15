@@ -188,7 +188,7 @@ rama-ws = { version = "0.3.0-alpha.4", path = "./rama-ws" }
 rand = "0.9"
 ratatui = "0.29"
 rawzip = { version = "0.4" }
-rcgen = { version = "0.14", default-features = false, features = ["pem", "x509-parser"] }
+rcgen = { version = "0.14", default-features = false, features = ["pem", "x509-parser", "ring"] }
 regex = "1.12"
 rustls = { version = "0.23", default-features = false, features = [
     "logging",
